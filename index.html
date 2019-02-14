@@ -1,31 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
-   <div id="header">
-       <div class="container">
-           <h1>バドミントンのすゝめ</h1>
-           <nav>
-               <ul>
-                   <li><a href=""> <img src="tennis-court.png" alt=""> </a></li>
-                   <li><a href=""> <img src="racket.png" alt=""> </a></li>
-                   <li><a href=""> <img src="shuttlecock.png" alt=""> </a></li>
-                   <li><a href=""> <img src="running.png" alt=""></a></li>
-                   <li><a href=""> <img src="whistle.png" alt=""> </a></li>
-               </ul>
-           </nav>
-       </div>
-   </div>
-   
-   <div class="container">
-    <div id="main">
-        
-    </div>   
-   </div>
-    
+    <div id="header">
+        <div class="container">
+            <h1>バドミントンのすゝめ</h1>
+            <nav>
+                <ul>
+                    <li><a href=""><img src="shuttlecock.png" alt="" width="50"></a></li>
+                    <li><a href=""><img src="running.png" alt="" width="50"></a></li>
+                    <li><a href=""><img src="tennis-court.png" alt="" width="50"></a></li>
+                    <li><a href=""><img src="racket.png" alt="" width="50"></a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="space"></div>
+
+    <div class="main-visual">
+    </div>
+
+    <div class="main-container">
+        <div class="about content" id="contents1">
+            <img class="pic" src="tworackets.jpg" alt="" width="250">
+            <h2>About</h2>
+            <p>このサイトは主にバドミントンを始めたいけど具体的に <br>
+                どういうスポーツなのか、やるには何を準備しないといけないのか、などを <br>
+                悩んでるバドミントン初心者のために僕が教えられる知識を詰め込んだ　<br>
+                サイトです！</p>
+        </div>
+
+        <div class="beginner content" id="contents2">
+            <h1>To Begin With</h1>
+            <img class="aboutimage" src="overview.jpeg" alt="" width="512">
+            <p>はじめに、バドミントンの基礎的な知識を載せますので、バドミントンのルールやラケット選びの項目がわかるよう知識に不安な人は読んでおきましょう。<br>
+                まず、バドミントンはシャトルと呼ばれる羽をラケットで相手の陣にに打ち込むことを目的としたスポーツです。テニスや卓球などと違って、バドミントンはシャトルが一度地面に触れてしまったらラリーは終了となります（そもそもシャトルは跳ね返るほど弾力はないですが）。<br>
+                <br>
+                次に、ラケットの各箇所にはそれぞれ名前があることを知りましょう。字の説明だけではわかりにくいので右の図も参考にしてみてください。<br>
+                ラケット全体の外枠のことをフレームと言います。<br>
+                ガットと呼ばれるラケットに張るストリングの外枠のことをヘッドと呼び、ラケットにインパクトをつけるためにしなりが加わる部分のことをシャフト、利き手でラケットを握るところをハンドルと呼びます。<br>
+                最低限この四つは覚えておけばラケットの知識としては大丈夫です。</p>
+        </div>
+
+        <div class="basics content" id="contents3">
+            <h2>Basic Rules</h2>
+            <img class="aboutimage" src="wilsonracquet.jpg" alt="" width="421">
+            <p>バドミントンのゲームの形式はは基本的にシングルスとダブルスの二種類です（トリプルスというのも実はありますが、ここでは割愛します）。<br>
+                ここではシングルスとダブルスのエンドライン、つまりインとアウトの境界線（下記）や試合での基本的な流れとルールを説明します。</p>
+            <h3>Game Routine</h3>
+            <p>公式バドミントンのゲームはじゃんけんでサーブ権を決め、任意のクリアのラリーの後に21点1ゲーム、<br>
+                2ゲーム先取の試合をする<br>
+                コートは１、2ゲームめではゲームごと、３ゲームめでは選手のどちらかが11点取った時点で交代する<br>
+                各ゲームで選手のどちらかが11点を取ると１分間、ゲーム間では２分のインターバルというものが取れる。選手はこのインターバルの間でコーチからアドバイスをもらったり水分補給をしたりする</p>
+            <h3>Court Boundaries</h3>
+            <p>サーブは、前ラリーで得点した選手が得点数が奇数だった場合はコートの左側から、偶数の場合は右側から対<br>
+                角線に向けてサーブを打つ<br>
+                シングルスでは、１対１でゲームをするためコートはフルには使わず左右の<span>幅を少し縮めて</span>使い、サーブは<span>対角線に向け手前の線より奥</span>を狙う<br>
+                ダブルスでは、２対２でゲームをするためコートはフルに使うが、サーブは<span>手前<br>
+                    の線よりは奥に、奥の線よりは手前</span>を狙う<br>
+                ダブルスの場合、サーブをパートナーと交互にするので、サーブ権が相手側にわ<br>
+                たるまで片方がサーブをし、再びサーブ権が戻ってきた時はもう片方がサーブを<br>
+                する、という風にサーブを回していく　なお、レシーブは最後サーブしたときの<br>
+                位置で受ける</p>
+        </div>
+
+        <div class="racquets content" id="contents4">
+            <h2>Racquets</h2>
+            <p>バドミントンのラケットは持ってみるとテニスとかと比べると軽く感じますが、短い時間で何度も振るので自分に合う重さのラケットを選ぶことが大事です。ここではラケットの重さやバランス、シャフトの硬さなどラケットを選ぶ上で必要な知識を少し浅めにですが網羅していこうと思います。</p>
+
+            <div class="column">
+                <div class="weight">
+                    <h3>Weight</h3>
+                    <p>まずラケットの重さには、Uという単位で大体のメーカーは指定されていることを覚えておきましょう。実際Uが何グラムかは下記の図の通りです。</p>
+                    <img class="grid" src="weightgrid.png" alt="" width="330">
+                    <p>図でわかる通り、5Uが一番軽く、そこからUが経るごとに大体5g重くなっていきます。傾向として、上級者など腕に力がある選手は2Uあたりを、中級者や初級者は3Uや4Uなどをよく使います。しかし、ラケット全体は軽くしてラケットの重心を重くすることで力軽めにスマッシュが打てるようにする選手もいるので右の”Balance”も参考にしてみてください。</p>
+                </div>
+                <div class="balance">a</div>
+                <div class="other">a</div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
 </body>
+
 </html>

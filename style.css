@@ -1,19 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+}
+
 .container {
   width: 1000px;
     margin: 0 auto;
+}
+
+
+#header {
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+    padding: 3px 0px;
+    position: fixed;
+    z-index: 2;
+}
+
+#header h1{
+    float: left;
+    color: #f9f9f9;
+    margin-right: 8px;
+    margin-left: 8px
 }
 
 nav {
     overflow: hidden;
 }
 
-#header {
-    width: 100%;
-    overflow: hidden;
-    background: #000;
-    padding: 6px 0px;
-    position: fixed;
-    z-index: 2;
+.space{
+    height: 70px;
 }
 
 nav li{
@@ -28,6 +49,20 @@ nav a{
     text-decoration: 
     color: #f9f9f9;
     margin: 14px 16px 0px;
+    transition: 0.3s;
+    margin-top: 7px;
+}
+
+nav a:hover{
+    border-bottom: 3px solid #f9f9f9;
+}
+
+.main-visual{
+    width: 100%;
+    height: 1000px;
+    background: #fff url(hero.png) 0 0 no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #main {
@@ -38,3 +73,78 @@ nav a{
     padding: 16px;
     float: left;
 }
+
+.main-container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+h1{
+    color:blue;
+    font-weight: 400;
+}
+
+h2{
+    color: blue;
+    font-weight: none;
+    font-size: 60px;
+}
+
+.aboutimage:{
+    float: left;
+}
+
+h3{
+    color: black;
+    font-weight: none;
+    font-size: 30px;
+    
+}
+
+.pic{
+    float: left;
+}
+
+p{
+    margin-bottom: 16px;
+    font-weight: 200;
+}
+
+.about{
+    width: 1000px;
+    margin: 0 auto;
+    height: 250px;
+}
+
+.beginner{
+    width: 1000px;
+    margin: 0 auto;
+    height: 600px;
+}
+
+.basics{
+    width: 1000px;
+    margin: 0 auto;
+    height: 700px;
+}
+
+.weight{
+    width: 30%;
+}
+
+.weight img {
+    display: block;
+    margin: 0 auto;
+}
+
+img{
+     float:right;   
+}
+
+
+.column {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}　
