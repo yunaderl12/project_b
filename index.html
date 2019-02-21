@@ -3,7 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Bigshot+One" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+   <script src="index.js"></script>
     <title>Document</title>
 </head>
 
@@ -13,10 +19,10 @@
             <h1>バドミントンのすゝめ</h1>
             <nav>
                 <ul>
-                    <li><a href=""><img src="shuttlecock.png" alt="" width="50"></a></li>
-                    <li><a href=""><img src="running.png" alt="" width="50"></a></li>
-                    <li><a href=""><img src="tennis-court.png" alt="" width="50"></a></li>
-                    <li><a href=""><img src="racket.png" alt="" width="50"></a></li>
+                    <div class="shuttlecock"><li><a href=""><img src="shuttlecock.png" alt="" width="50"></a></li></div>
+                    <div class="running"><li><a href=""><img src="running.png" alt="" width="50"></a></li></div>
+                    <div class="tennis-court"><li><a href=""><img src="tennis-court.png" alt="" width="50"></a></li></div>
+                    <div class="racket"><li><a href=""><img src="racket.png" alt="" width="50"></a></li></div>
                 </ul>
             </nav>
         </div>
@@ -28,13 +34,14 @@
 
     <div class="main-container">
         <div class="about content" id="contents1">
-            <img class="pic" src="tworackets.jpg" alt="" width="250">
             <h2>About</h2>
+            <div class="start">
+            <img class="pic" src="tworackets.jpg" alt="" width="250">
             <p>このサイトは主にバドミントンを始めたいけど具体的に <br>
                 どういうスポーツなのか、やるには何を準備しないといけないのか、などを <br>
                 悩んでるバドミントン初心者のために僕が教えられる知識を詰め込んだ　<br>
                 サイトです！</p>
-        </div>
+                </div>
 
         <div class="beginner content" id="contents2">
             <h1>To Begin With</h1>
@@ -46,6 +53,7 @@
                 ラケット全体の外枠のことをフレームと言います。<br>
                 ガットと呼ばれるラケットに張るストリングの外枠のことをヘッドと呼び、ラケットにインパクトをつけるためにしなりが加わる部分のことをシャフト、利き手でラケットを握るところをハンドルと呼びます。<br>
                 最低限この四つは覚えておけばラケットの知識としては大丈夫です。</p>
+        </div>
         </div>
 
         <div class="basics content" id="contents3">
